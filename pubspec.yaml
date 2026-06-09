@@ -1,0 +1,56 @@
+name: smart_weather_monitor_pro
+description: "Smart Weather Monitor Pro - Intelligent Weather Analytics & Forecasting Platform"
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP & Networking
+  http: ^1.4.0
+  connectivity_plus: ^6.1.4
+
+  # State Management
+  provider: ^6.1.5
+
+  # Local Storage
+  shared_preferences: ^2.5.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+
+  # UI & Design
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  fl_chart: ^0.70.2
+
+  # Utilities
+  intl: ^0.20.0
+  share_plus: ^10.1.4
+  path_provider: ^2.1.5
+
+  # PDF Generation
+  pdf: ^3.11.3
+  printing: ^5.14.3
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
